@@ -7,6 +7,8 @@
 
 package main
 
+// Testing the git
+
 import (
 	"fmt"
 	"myapp/doctor"
@@ -14,9 +16,7 @@ import (
 
 func main() {
 
-	var whatToSay string
-
-	whatToSay = doctor.Intro()
-
+	whatToSay := doctor.Intro()
 	fmt.Println(whatToSay)
+
 }
