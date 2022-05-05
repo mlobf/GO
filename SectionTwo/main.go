@@ -24,9 +24,9 @@ const prompt = "and press ENTER when ready"
 func main() {
 
 	var firstNumber = 2
-	var secondNumber = 2
+	var secondNumber = 5
 	var subtraction = 7
-	//var answer int
+	var answer int
 
 	reader := bufio.NewReader(os.Stdin)
 
@@ -54,5 +54,8 @@ func main() {
 
 	fmt.Println("Now subtract", subtraction, prompt)
 
-	//fmt.Print(firstNumber, secondNumber, subtraction, answer)
+	// give them answer.
+	answer = firstNumber*secondNumber - subtraction
+
+	fmt.Println("The answer is ", answer)
 }
