@@ -20,6 +20,7 @@ import (
 */
 
 const prompt = "and press ENTER when ready"
+const other = ""
 
 func main() {
 
@@ -31,9 +32,9 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 
 	// Display a welcome/instructions.
-
 	// Take them through the game.
 	// give them the answer
+
 	fmt.Println("Guess the Number")
 	fmt.Println("================")
 	fmt.Println("")
